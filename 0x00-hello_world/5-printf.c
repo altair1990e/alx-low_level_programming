@@ -3,7 +3,7 @@
 /**
  * main - this is  my first c program
  *
- * Return: Always 0 (Success) 
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
