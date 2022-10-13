@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-int main()
+main()
 {
-	puts(const char* "Programming is like building a multilingual puzzle"/n);
+	puts("Programming is like building a multilingual puzzle\n");
 
 	return 0;
 }
