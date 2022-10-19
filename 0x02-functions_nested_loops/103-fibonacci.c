@@ -13,7 +13,7 @@ int main(void)
 
 	n1 = 1;
 	n2 = 2;
-	fn = afn =0;
+	fn = afn = 0;
 	while (fn <= 4000000)
 	{
 		fn = n1 + n2;
@@ -24,6 +24,6 @@ int main(void)
 			afn += n1;
 		}
 	}
-	printf("%ld'n", afn);
+	printf("%ld\n", afn);
 	return (0);
 }
