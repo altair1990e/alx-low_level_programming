@@ -6,7 +6,7 @@
  * Return:1
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 {
 	for (i = 'a'; i <= 'z'; i++)
 	{
