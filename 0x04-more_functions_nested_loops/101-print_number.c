@@ -28,8 +28,8 @@ void print_number(int n)
 		count *= 10;
 	}
 
-	for (;  count >= 1; count /= 10)
+	for (; count >= 1; count /= 10)
 	{
-		_putchar(((m / coun) % 10) + 48);
+		_putchar(((m / count) % 10) + 48);
 	}
 }
