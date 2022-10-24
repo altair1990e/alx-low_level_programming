@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main -Entry point
+ * reset_to_98 -Entry point
  * @n: n pointer
  */
 
