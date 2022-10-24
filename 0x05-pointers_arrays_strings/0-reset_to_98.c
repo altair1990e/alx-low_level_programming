@@ -3,13 +3,10 @@
 
 /**
  * main -Entry point
- * *n@: n pointer
- * Return: 0
+ * @n: n pointer
  */
 
 void reset_to_98(int *n)
 {
 	*n = 98;
-	
-	return (0);
 }
