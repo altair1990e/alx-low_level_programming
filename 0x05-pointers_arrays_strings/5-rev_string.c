@@ -2,7 +2,8 @@
 
 /**
  * rev_string -reverses a string
- * Retun: 0
+ * @s: string
+ * Return: none
  */
 
 void rev_string(char *s)
