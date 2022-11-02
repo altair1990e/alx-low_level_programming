@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_chessboarrd - prints a chessboard
+ * print_chessboard - prints a chessboard
  * @a: input pointer
  * Return: no return
  */
 
-void print_chessboard(char (*a) [8])
+void print_chessboard(char (*a)[8])
 {
-	unsigned int  i, m =0;
+	unsigned int  i, m = 0;
 
 	for (i = 0; i < 64; i++)
 	{
@@ -17,7 +17,7 @@ void print_chessboard(char (*a) [8])
 			m = i;
 			_putchar('\n');
 		}
-		_putchar(a[i / 8] [i - m]);
+		_putchar(a[i / 8][i - m]);
 	}
 	_putchar('\n');
 }

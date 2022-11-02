@@ -5,7 +5,7 @@
  * @haystack: the string to be searched
  * @needle: the substring to be located
  *
- * Return: if the substring is located return to beginning 
+ * Return: if the substring is located return to beginning
  * of located substring
  */
 
@@ -13,7 +13,7 @@ char *_strstr(char *haystack, char *needle)
 {
 	int index;
 
-	if (*needle ==0)
+	if (*needle == 0)
 		return (haystack);
 
 	while (*haystack)
